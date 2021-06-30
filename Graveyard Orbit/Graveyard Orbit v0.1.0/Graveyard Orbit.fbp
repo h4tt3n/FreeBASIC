@@ -1,0 +1,55 @@
+[Project]
+Version=3
+Description=A 2D space physics puzzle game
+Api=fb (FreeBASIC)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows Console,fbc -s console -gen gcc -w pedantic -o 3
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=6,7,10,5,4,3,2,8,1
+[File]
+1=goConstants.bi
+2=goGame.bi
+3=goPlanet.bi
+4=goPuzzles.bi
+5=goRocket.bi
+6=GraveyardOrbit.bi
+7=Main.bas
+Main=7
+8=goCreate.bi
+9=
+10=goRoxel.bi
+[BreakPoint]
+2=
+3=
+5=
+6=
+4=
+1=
+7=
+8=
+9=
+10=
+[FileInfo]
+1=0,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,362,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,135,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,704,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,176,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,25,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8=0,451,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9=0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10=0,149,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

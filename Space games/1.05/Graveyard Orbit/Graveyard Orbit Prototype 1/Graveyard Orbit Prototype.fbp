@@ -1,0 +1,40 @@
+[Project]
+Version=3
+Description=Graveyard Orbit Prototype
+Api=fb (FreeBASIC)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Current=1
+1=Windows Console,fbc -s console
+Recompile=2
+Module=Module Build,fbc -c
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=2,1,3,4,5
+[File]
+1=containers.bi
+2=main.bas
+3=puzzles.bi
+4=types.bi
+Main=2
+5=create.bi
+[BreakPoint]
+3=
+4=
+2=
+1=
+5=
+[FileInfo]
+2=0,605,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,57,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,142,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1=0,19,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,129,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

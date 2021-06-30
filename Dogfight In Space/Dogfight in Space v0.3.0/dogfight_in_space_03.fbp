@@ -1,0 +1,24 @@
+[Project]
+Version=3
+Description=dogfight in space
+Api=fb (FreeBASIC)
+[Make]
+Current=1
+1=Windows GUI,fbc -s gui
+Recompile=2
+Module=Module Build,fbc -c
+[File]
+1=dogfight_in_space_03.bas
+2=dogfight_in_space_03.bi
+3=vec2f.bi
+Main=1
+[BreakPoint]
+1=
+2=
+3=
+[FileInfo]
+1=0,17,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[TabOrder]
+TabOrder=0,2,3
